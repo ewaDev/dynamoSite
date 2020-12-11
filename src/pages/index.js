@@ -1,6 +1,6 @@
 import React from "react"
 import styleSheet from "./index.module.css"
-import NavigationBar from "../components/navigationbar.js"
+import NavigationBar from "../components/navigationbar"
 
 
 
