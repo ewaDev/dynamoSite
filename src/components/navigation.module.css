@@ -4,19 +4,26 @@
     padding: 0 ; 
 }
 
-nav {}
+nav {
+    display: flex;
+    padding: 10px 15px 10px 15px;
+    width: 100%;
+}
 
 li {
     display: inline-block;
-    padding-right: 10px;
-    
+    padding-right: 15px;
+    padding-left: 11px;
+    flex: 1; 
 }
 .navColor {
-    display: flex;
     width: 100%;
-   
-    justify-content: flex-end; 
-    align-items: center; 
-    padding: 20px 15px 10px 10px 
-
+    display: flex;
 }
+
+@media only screen and (max-width: 768px) {
+    li {
+      padding: 5px;
+      display:flex;
+    }
+  }

@@ -7,9 +7,11 @@ const NavigationBar = () => {
     <div class={styleSheet.navColor}>
         <nav>
             <ul>
-                <li> About us </li>
-                <li> Workshops </li>
-                <li> Contact us</li>
+            <li> ABOUT US </li>
+                <li> SERVICES </li>
+                <li> EQUIPMENT LIBRARY</li>
+                <li> MEMBERSHIP </li>
+                <li> CONTACT </li>
             </ul>
         </nav>
 

@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+@import "../css/typography.css";
 
 
 .wrapper {
@@ -11,8 +12,9 @@
   display: flex;
   width: 100%;
   max-height: max-content;
-  /* padding: 3vh;  */
   flex-direction: row;
+  background-color: rgba(0, 255, 136, 0.842);
+  padding: 3vh
 }
 
 @media only screen and (max-width: 768px) {
@@ -34,8 +36,18 @@
   flex-direction: column;
 }
 
+.topContainerItems {
+  display: flex;
+  flex: 3;
+  padding: 3vh; 
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2vh;
+}
+
 .image {
-  height: 350px;
+  height: 300px;
   width: auto;
 }
 @media only screen and (max-width: 768px) {
@@ -45,12 +57,21 @@
 }
 
 .topContainerText {
-  flex: 2;
+  margin: 2vh;
+  flex: 1; 
+  font-family: "OpenDyslexic", serif;
   padding: 3vh; 
   align-items: center;
   flex-direction: column;
   display: flex;
   justify-content: center;
+}
+
+.solidLine {
+  height: 5px;
+  width: 95%;
+  background-color: rgba(0,0,0,0.5);
+  margin-top: 1vh;
 }
 
 .navbar {
